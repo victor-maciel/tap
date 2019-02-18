@@ -1,0 +1,17 @@
+{
+  "name": "projetoaula2",
+  "version": "1.0.0",
+  "description": "Projeto para a aula 2 de TAP (compactador e descopactador)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Maciel",
+  "license": "ISC",
+  "dependencies": {
+    "archive": "0.0.2",
+    "archiver": "^3.0.0",
+    "extract-zip": "^1.6.7",
+    "node-zip": "^1.1.1"
+  }
+}
