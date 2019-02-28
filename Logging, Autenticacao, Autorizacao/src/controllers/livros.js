@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const livrosRepo = require('../repositories/LivrosRepository');
+const seguranca = require('../util/seguranca');
 
 
 //o prefixo /livros nao é necessário
