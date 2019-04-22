@@ -1,0 +1,38 @@
+{
+  "name": "teste-de-apps-react",
+  "version": "0.1.0",
+  "description": "Destinado a aprendizagem de testes com react",
+  "license": "MIT",
+  "main": "webpack.config.js",
+  "author": {
+    "name": "Victor Maciel",
+    "email": "victor@gmail.com"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
+    "test": "mocha — compilers js:babel-core/register"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "expect": "^24.7.1",
+    "jsdom": "^15.0.0",
+    "mocha": "^6.1.4",
+    "mocha-jsdom": "^2.0.0",
+    "react": "^15.0.1",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^15.0.1",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "touch": "^3.1.0"
+  }
+}
